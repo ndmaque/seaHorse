@@ -1,0 +1,10 @@
+<h2>Boats</h2>
+
+    <!--<div *ngFor="let hero of ('assets/heroes.json' | fetch) ">-->
+     <div *ngFor="let boat of boatList">
+     {{boat.id}}) {{boat.name}}
+    </div>
+
+    <p>boatList as JSON:
+      {{ boatList | json}}
+    </p>`

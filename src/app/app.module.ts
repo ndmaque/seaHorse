@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { BoatListComponent } from './components/boat/boat-list.component';
 import { ExponentialStrengthPipe } from './exponential-strength.pipe';
 import { FetchJsonPipe } from './fetch-json.pipe';
 import { FlyingHeroesComponent, FlyingHeroesImpureComponent } from './flying-heroes.component';
@@ -24,6 +25,7 @@ import { PowerBoosterComponent } from './power-booster.component';
   ],
   declarations: [
     AppComponent,
+    BoatListComponent,
     FlyingHeroesComponent,
     FlyingHeroesImpureComponent,
     HeroAsyncMessageComponent,
